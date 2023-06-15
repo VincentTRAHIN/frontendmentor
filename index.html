@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,500;0,700;0,800;1,500;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | Results summary component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+        padding-top: 2rem;
+        
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+        
+      }
+    </style>
+  </head>
+  <body>
+    <main class="main-container">
+      <div class="page__results">
+        <h1 class="page__title page_results-title">Your Result</h1>
+        <div class="page__results-score">
+          <span class="page__results-score--actual">76</span>
+          <span class="page__results-score--total">of 100</span>
+        </div>
+        <h2 class="page__results-grades">Great</h2>
+        <p class="page__results-infos">
+          You scored higher than 65% of the people who have taken these tests.
+        </p>
+      </div>
+      <div class="page__summary">
+        <h1 class="page__title page_summary-title">Summary</h1>
+        <ul class="page__summary-list-scores">
+          <li class="page__summary-list-item">
+            <div class="page__summary-list-item--left">
+              <img
+                src="./assets/images/icon-reaction.svg"
+                alt="icon representing a flash"
+                class="page__summary-list-item--icon"
+              />
+              <span class="page__summary-list-item--text">Reaction</span>
+            </div>
+            <div class="page__summary-list-item--right">
+              <span class="page__summary-list-item--right---actual">80</span>
+              <span class="page__summary-list-item--right---total">/ 100</span>
+            </div>
+          </li>
+          <li class="page__summary-list-item">
+            <div class="page__summary-list-item--left">
+              <img
+                src="./assets/images/icon-memory.svg"
+                alt="icon representing a brain"
+                class="page__summary-list-item--icon"
+              />
+              <span class="page__summary-list-item--text">Memory</span>
+            </div>
+            <div class="page__summary-list-item--right">
+              <span class="page__summary-list-item--right---actual">92</span>
+              <span class="page__summary-list-item--right---total">/ 100</span>
+            </div>
+          </li>
+          <li class="page__summary-list-item">
+            <div class="page__summary-list-item--left">
+              <img
+                src="./assets/images/icon-verbal.svg"
+                alt="icon representing a bubble chat"
+                class="page__summary-list-item--icon"
+              />
+              <span class="page__summary-list-item--text">Verbal</span>
+            </div>
+            <div class="page__summary-list-item--right">
+              <span class="page__summary-list-item--right---actual">61</span>
+              <span class="page__summary-list-item--right---total">/ 100</span>
+            </div>
+          </li>
+          <li class="page__summary-list-item">
+            <div class="page__summary-list-item--left">
+              <img
+                src="./assets/images/icon-visual.svg"
+                alt="icon representing a visual"
+                class="page__summary-list-item--icon"
+              />
+              <span class="page__summary-list-item--text">Visual</span>
+            </div>
+            <div class="page__summary-list-item--right">
+              <span class="page__summary-list-item--right---actual">72</span>
+              <span class="page__summary-list-item--right---total">/ 100</span>
+            </div>
+          </li>
+        </ul>
+        <button class="page__summary-button" type="submit">
+          <span class="page__summary-button--text">Continue</span>
+        </button>
+      </div>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Vincent TRAHIN</a>.
+      </div>
+    </main>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Vincent TRAHIN</a>.
+    </div>
+  </body>
+</html>
