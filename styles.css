@@ -56,7 +56,7 @@ body {
     width: 180px;
     height: 180px;
     border-radius: 50%;
-
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
 .page__results-score--actual {
@@ -105,7 +105,8 @@ body {
     justify-content: space-between;
     padding: 1rem;
     margin-bottom: 1rem; 
-    border-radius: 0.5rem ; 
+    border-radius: 0.5rem ;
+    box-shadow: rgba(50, 50, 93, 0.20) 0px 50px 100px -20px, rgba(0, 0, 0, 0.25) 0px 30px 60px -30px, rgba(10, 37, 64, 0.30) 0px -2px 6px 0px inset; 
 }
 
 .page__summary-list-item:nth-child(1) {
@@ -166,7 +167,7 @@ body {
         transform: scale(0.9);
         text-transform: uppercase;
         border: 3px solid hsl(241, 100%, 89%);
-        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        box-shadow: rgba(50, 50, 93, 0.20) 0px 50px 100px -20px, rgba(0, 0, 0, 0.25) 0px 30px 60px -30px, rgba(10, 37, 64, 0.30) 0px -2px 6px 0px inset;
 }
 
 .page__summary-button:hover {
@@ -176,7 +177,7 @@ body {
         background-color: hsl(241, 100%, 89%);
         border: 3px solid hsl(224, 30%, 27%);
         transition: all 400ms cubic-bezier(.17,.67,.83,.67) 150ms ;
-        
+        box-shadow: rgba(50, 50, 93, 0.30) 0px 50px 100px -20px, rgba(0, 0, 0, 0.35) 0px 30px 60px -30px, rgba(10, 37, 64, 0.40) 0px -2px 6px 0px inset;
 }
 
 
